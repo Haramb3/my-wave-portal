@@ -4,3 +4,9 @@ dist
 dist-ssr
 *.local
 .env
+replit_zip_error_log.txt
+.replit
+.upm
+.vscode
+cache
+test
