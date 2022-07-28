@@ -1,0 +1,75 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.connectedAddress {
+  position:absolute;
+  top:5px;
+  right:5px;
+  border: 2px solid black;
+  padding: 8px;
+  margin: 16px;
+  text-align:center;
+  background-color: deeppink;
+  font-family:Abel;
+  font-weight:bold;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color:white;
+}
+
+.bio {
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
+
+.counter {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.waveButton {
+  cursor: pointer;
+  padding: 8px;
+  border: 1;
+  border-color:black;
+  background-color:deeppink;
+  border-top:0;
+  font-weight: bold;
+}
+.inputText {
+  text-align: center;
+  background: white;
+  margin-top: 16px;
+  padding: 8px;
+  border: 1;
+  border-color:black;
+}
+.Waves {
+  text-align: center;
+  background-color: deeppink;
+  border: 1 solid black;
+  margin-top: 16px;
+  padding: 8px; 
+  display: flex;
+  flex-direction: column-reverse;
+  font-family:Abel;
+}
